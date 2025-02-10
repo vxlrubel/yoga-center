@@ -5,3 +5,33 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/about', function () {
+    return view('about');
+});
+Route::get('/classes', function () {
+    return view('classes');
+});
+Route::get('/class-details', function () {
+    return view('class-details');
+});
+Route::get('/trainers', function () {
+    return view('trainers');
+});
+Route::get('/trainer-details', function () {
+    return view('trainer-details');
+});
+Route::get('/events', function () {
+    return view('events');
+});
+Route::get('/event-details', function () {
+    return view('event-details');
+});
+Route::get('/blog', function () {
+    return view('blog');
+});
+Route::get('/blog-details', function () {
+    return view('blog-details');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
