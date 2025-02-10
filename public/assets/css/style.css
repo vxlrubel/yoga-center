@@ -15,7 +15,7 @@
 :root{
 	--hue: 337;
 	--saturation: 85%;
-	--lightness: 50%; 
+	--lightness: 50%;
 	--color-primary: hsl(var(--hue), var(--saturation), var(--lightness));
 	--color-secondary: hsl(258, 98%, 70%);
 }
@@ -91,7 +91,7 @@ button:focus,
 textarea:focus {
 	outline: none;
 }
-
+a,
 a:hover,
 a:focus {
 	text-decoration: none;
@@ -3798,6 +3798,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	margin-right: 10px;
 	font-size: 14px;
 	margin-bottom: 5px;
+    text-decoration: none;
 }
 
 .site-pagination a:hover {
