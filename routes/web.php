@@ -35,3 +35,6 @@ Route::get('/blog-details', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+Route::get('/booknow', function () {
+    return view('booknow');
+});
