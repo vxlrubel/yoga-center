@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@push('title', 'Welcome to Yoga Center | Yoga Center')
+
 @section('content')
 
 	<!-- Hero Section -->
@@ -499,52 +501,5 @@
 	</section>
 	<!-- Sign up Section end -->
 
-	<!-- Gallery Section -->
-	<div class="gallery-section">
-		<div class="gallery-slider owl-carousel">
-			<div class="gs-item">
-				<img src="assets/img/gallery/1.jpg" alt="">
-				<div class="gs-hover">
-					<i class="fa fa-instagram"></i>
-					<p>ahana.yoga</p>
-				</div>
-			</div>
-			<div class="gs-item">
-				<img src="assets/img/gallery/2.jpg" alt="">
-				<div class="gs-hover">
-					<i class="fa fa-instagram"></i>
-					<p>ahana.yoga</p>
-				</div>
-			</div>
-			<div class="gs-item">
-				<img src="assets/img/gallery/3.jpg" alt="">
-				<div class="gs-hover">
-					<i class="fa fa-instagram"></i>
-					<p>ahana.yoga</p>
-				</div>
-			</div>
-			<div class="gs-item">
-				<img src="assets/img/gallery/4.jpg" alt="">
-				<div class="gs-hover">
-					<i class="fa fa-instagram"></i>
-					<p>ahana.yoga</p>
-				</div>
-			</div>
-			<div class="gs-item">
-				<img src="assets/img/gallery/5.jpg" alt="">
-				<div class="gs-hover">
-					<i class="fa fa-instagram"></i>
-					<p>ahana.yoga</p>
-				</div>
-			</div>
-			<div class="gs-item">
-				<img src="assets/img/gallery/6.jpg" alt="">
-				<div class="gs-hover">
-					<i class="fa fa-instagram"></i>
-					<p>ahana.yoga</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Gallery Section end -->
+
 @endsection
