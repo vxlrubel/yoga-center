@@ -275,7 +275,7 @@
 							<li><a href="javascript:void(0)">Gallery</a></li>
 							<li><a href="javascript:void(0)">Special Issues</a></li>
 							<li><a href="javascript:void(0)">Privacy Policy</a></li>
-							<li><a href="javascript:void(0)">Contact Us</a></li>
+							<li><a href="{{ url('/contact') }}">Contact Us</a></li>
 						</ul>
 					</div>
 				</div>
