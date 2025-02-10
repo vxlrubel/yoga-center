@@ -6,7 +6,7 @@
 <head>
 	<title>@stack('title')</title>
 	<meta charset="UTF-8">
-	<meta name="description" content="Ahana Yoga HTML Template">
+	<meta name="description" content="Yoga Center is a Laravel-based web application designed for managing yoga classes, schedules, and users. It offers secure authentication, a user-friendly interface">
 	<meta name="keywords" content="yoga, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
