@@ -59,7 +59,7 @@
 												<p>Yoga Trainer</p>
 											</div>
 										</div>
-										<a href="#" class="site-btn sb-gradient">book now</a>
+										<a href="javascript:void(0)" class="site-btn sb-gradient">book now</a>
 									</div>
 								</div>
 							</div>
@@ -86,7 +86,7 @@
 												<p>Yoga Trainer</p>
 											</div>
 										</div>
-										<a href="#" class="site-btn sb-gradient">book now</a>
+										<a href="javascript:void(0)" class="site-btn sb-gradient">book now</a>
 									</div>
 								</div>
 							</div>
@@ -113,7 +113,7 @@
 												<p>Yoga Trainer</p>
 											</div>
 										</div>
-										<a href="#" class="site-btn sb-gradient">book now</a>
+										<a href="javascript:void(0)" class="site-btn sb-gradient">book now</a>
 									</div>
 								</div>
 							</div>
@@ -140,7 +140,7 @@
 												<p>Yoga Trainer</p>
 											</div>
 										</div>
-										<a href="#" class="site-btn sb-gradient">book now</a>
+										<a href="javascript:void(0)" class="site-btn sb-gradient">book now</a>
 									</div>
 								</div>
 							</div>
@@ -167,7 +167,7 @@
 												<p>Yoga Trainer</p>
 											</div>
 										</div>
-										<a href="#" class="site-btn sb-gradient">book now</a>
+										<a href="javascript:void(0)" class="site-btn sb-gradient">book now</a>
 									</div>
 								</div>
 							</div>
@@ -194,16 +194,16 @@
 												<p>Yoga Trainer</p>
 											</div>
 										</div>
-										<a href="#" class="site-btn sb-gradient">book now</a>
+										<a href="javascript:void(0)" class="site-btn sb-gradient">book now</a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="site-pagination pt-3">
-						<a href="#" class="active">1</a>
-						<a href="#">2</a>
-						<a href="#"><i class="material-icons">keyboard_arrow_right</i></a>
+						<a href="javascript:void(0)" class="active">1</a>
+						<a href="javascript:void(0)">2</a>
+						<a href="javascript:void(0)"><i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-5 col-sm-8 sidebar">
@@ -267,7 +267,7 @@
 							<div class="pc-item">
 								<div class="pc-thumb set-bg" data-setbg="assets/img/event/1.jpg"></div>
 								<div class="pc-text">
-									<h4><a href="#">Yoga Balance</a></h4>
+									<h4><a href="javascript:void(0)">Yoga Balance</a></h4>
 									<ul>
 										<li><i class="material-icons">event_available</i>Mon, Wed, Fri</li>
 										<li><i class="material-icons">alarm_on</i>06:30pm - 07:45pm</li>
@@ -278,7 +278,7 @@
 							<div class="pc-item">
 								<div class="pc-thumb set-bg" data-setbg="assets/img/event/2.jpg"></div>
 								<div class="pc-text">
-									<h4><a href="#">Yoga Balance</a></h4>
+									<h4><a href="javascript:void(0)">Yoga Balance</a></h4>
 									<ul>
 										<li><i class="material-icons">event_available</i>Mon, Wed, Fri</li>
 										<li><i class="material-icons">alarm_on</i>06:30pm - 07:45pm</li>

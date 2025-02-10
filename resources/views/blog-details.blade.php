@@ -53,10 +53,10 @@
 							</div>
 							<div class="col-sm-5 text-left text-sm-right pt-4 pt-sm-0">
 								<div class="ed-social">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-instagram"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-linkedin"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-facebook"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-instagram"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-twitter"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a>
 								</div>
 							</div>
 						</div>
@@ -68,10 +68,10 @@
 								<h3>Dorothy Newman</h3>
 								<p>Let Yoga bring you perfect body, health and flexibility and a spirit of relaxation. Choose the nearest gym at Ahana Yoga and start this amazing journey!</p>
 								<div class="ba-social">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-instagram"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-linkedin"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-facebook"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-instagram"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-twitter"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a>
 								</div>
 							</div>
 						</div>
@@ -79,14 +79,14 @@
 					<div class="blog-nav-warp text-center text-sm-left">
 						<div class="row">
 							<div class="col-sm-6">
-								<a href="#" class="blog-nav bn-prev text-decoration-none">
+								<a href="javascript:void(0)" class="blog-nav bn-prev text-decoration-none">
 									<i class="material-icons">keyboard_arrow_left</i>
 									<h3>Movements for Slim</h3>
 									<p>Previous Post</p>
 								</a>
 							</div>
 							<div class="col-sm-6 text-center text-sm-right">
-								<a href="#" class="blog-nav bn-next text-decoration-none">
+								<a href="javascript:void(0)" class="blog-nav bn-next text-decoration-none">
 									<i class="material-icons">keyboard_arrow_right</i>
 									<h3>The Perfect Dose</h3>
 									<p>Next Post</p>
@@ -102,7 +102,7 @@
 								<h3>Beverly Price </h3>
 								<div class="comment-date"><i class="material-icons">alarm_on</i>June 28, 2019 at 3:18 pm</div>
 								<p>Just practicing yoga for more than 3 months, I dropped from 64 kg to 58 kg. I have used many weight loss measures such as medication, diet, but the effects are slow and low. </p>
-								<a href="#" class="reply"><i class="material-icons">reply</i>Reply</a>
+								<a href="javascript:void(0)" class="reply"><i class="material-icons">reply</i>Reply</a>
 							</div>
 							<ul class="comment-sub-list">
 								<li>
@@ -111,7 +111,7 @@
 										<h3>Jacqueline Watkins</h3>
 										<div class="comment-date"><i class="material-icons">alarm_on</i>June 28, 2019 at 3:18 pm</div>
 										<p>Just practicing yoga for more than 3 months, I dropped from 64 kg to 58 kg. I have used many weight loss measures such as medication, diet, but the effects are slow and low. </p>
-										<a href="#" class="reply"><i class="material-icons">reply</i>Reply</a>
+										<a href="javascript:void(0)" class="reply"><i class="material-icons">reply</i>Reply</a>
 									</div>
 								</li>
 							</ul>
@@ -122,7 +122,7 @@
 								<h3>Lori Gonzales</h3>
 								<div class="comment-date"><i class="material-icons">alarm_on</i>June 28, 2019 at 3:18 pm</div>
 								<p>Just practicing yoga for more than 3 months, I dropped from 64 kg to 58 kg. I have used many weight loss measures such as medication, diet, but the effects are slow and low. </p>
-								<a href="#" class="reply"><i class="material-icons">reply</i>Reply</a>
+								<a href="javascript:void(0)" class="reply"><i class="material-icons">reply</i>Reply</a>
 							</div>
 						</li>
 					</ul>
@@ -143,7 +143,7 @@
 							</div>
 							<div class="col-md-12">
 								<textarea placeholder="Message"></textarea>
-								<a href="#" class="site-btn sb-gradient">Send message</a>
+								<a href="javascript:void(0)" class="site-btn sb-gradient">Send message</a>
 							</div>
 						</div>
 					</form>
@@ -163,22 +163,22 @@
 							<h6>Yoga Trainer</h6>
 							<p>Yoga & Therapy Certificate of Uttarakhand University</p>
 							<div class="ai-social">
-								<a href="#" class="text-decoration-none"><i class="fa fa-facebook"></i></a>
-								<a href="#" class="text-decoration-none"><i class="fa fa-instagram"></i></a>
-								<a href="#" class="text-decoration-none"><i class="fa fa-twitter"></i></a>
-								<a href="#" class="text-decoration-none"><i class="fa fa-linkedin"></i></a>
+								<a href="javascript:void(0)" class="text-decoration-none"><i class="fa fa-facebook"></i></a>
+								<a href="javascript:void(0)" class="text-decoration-none"><i class="fa fa-instagram"></i></a>
+								<a href="javascript:void(0)" class="text-decoration-none"><i class="fa fa-twitter"></i></a>
+								<a href="javascript:void(0)" class="text-decoration-none"><i class="fa fa-linkedin"></i></a>
 							</div>
 						</div>
 					</div>
 					<div class="sb-widget">
 						<h2 class="sb-title">Categories</h2>
 						<ul class="sb-list">
-							<li><a href="#" class="text-decoration-none">Health<span>(5)</span></a></li>
-							<li><a href="#" class="text-decoration-none">Nature<span>(7)</span></a></li>
-							<li><a href="#" class="text-decoration-none">Beauty<span>(3)</span></a></li>
-							<li><a href="#" class="text-decoration-none">Challenge<span>(10)</span></a></li>
-							<li><a href="#" class="text-decoration-none">Training<span>(12)</span></a></li>
-							<li><a href="#" class="text-decoration-none">Progress<span>(4)</span></a></li>
+							<li><a href="javascript:void(0)" class="text-decoration-none">Health<span>(5)</span></a></li>
+							<li><a href="javascript:void(0)" class="text-decoration-none">Nature<span>(7)</span></a></li>
+							<li><a href="javascript:void(0)" class="text-decoration-none">Beauty<span>(3)</span></a></li>
+							<li><a href="javascript:void(0)" class="text-decoration-none">Challenge<span>(10)</span></a></li>
+							<li><a href="javascript:void(0)" class="text-decoration-none">Training<span>(12)</span></a></li>
+							<li><a href="javascript:void(0)" class="text-decoration-none">Progress<span>(4)</span></a></li>
 						</ul>
 					</div>
 					<div class="sb-widget">
@@ -263,9 +263,9 @@
 					<div class="sb-widget">
 						<h2 class="sb-title">Latest post</h2>
 						<div class="sb-tags">
-							<a href="#" class="text-decoration-none">Nature</a>
-							<a href="#" class="text-decoration-none">Health</a>
-							<a href="#" class="text-decoration-none">Yoga</a>
+							<a href="javascript:void(0)" class="text-decoration-none">Nature</a>
+							<a href="javascript:void(0)" class="text-decoration-none">Health</a>
+							<a href="javascript:void(0)" class="text-decoration-none">Yoga</a>
 						</div>
 					</div>
 				</div>

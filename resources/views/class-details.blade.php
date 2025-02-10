@@ -57,10 +57,10 @@
 							</div>
 							<div class="col-sm-5 text-left text-sm-right pt-4 pt-sm-0">
 								<div class="cd-social">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-instagram"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-linkedin"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-facebook"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-instagram"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-twitter"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a>
 								</div>
 							</div>
 						</div>
@@ -87,7 +87,7 @@
 										<p>Yoga Trainer</p>
 									</div>
 								</div>
-								<a href="#" class="site-btn sb-gradient">book now</a>
+								<a href="javascript:void(0)" class="site-btn sb-gradient">book now</a>
 							</div>
 						</div>
 						<div class="classes-item">
@@ -110,7 +110,7 @@
 										<p>Yoga Trainer</p>
 									</div>
 								</div>
-								<a href="#" class="site-btn sb-gradient">book now</a>
+								<a href="javascript:void(0)" class="site-btn sb-gradient">book now</a>
 							</div>
 						</div>
 						<div class="classes-item">
@@ -133,7 +133,7 @@
 										<p>Yoga Trainer</p>
 									</div>
 								</div>
-								<a href="#" class="site-btn sb-gradient">book now</a>
+								<a href="javascript:void(0)" class="site-btn sb-gradient">book now</a>
 							</div>
 						</div>
 					</div>
@@ -145,7 +145,7 @@
 								<h3>Beverly Price </h3>
 								<div class="comment-date"><i class="material-icons">alarm_on</i>June 28, 2019 at 3:18 pm</div>
 								<p>Just practicing yoga for more than 3 months, I dropped from 64 kg to 58 kg. I have used many weight loss measures such as medication, diet, but the effects are slow and low. </p>
-								<a href="#" class="reply"><i class="material-icons">reply</i>Reply</a>
+								<a href="javascript:void(0)" class="reply"><i class="material-icons">reply</i>Reply</a>
 							</div>
 							<ul class="comment-sub-list">
 								<li>
@@ -154,7 +154,7 @@
 										<h3>Jacqueline Watkins</h3>
 										<div class="comment-date"><i class="material-icons">alarm_on</i>June 28, 2019 at 3:18 pm</div>
 										<p>Just practicing yoga for more than 3 months, I dropped from 64 kg to 58 kg. I have used many weight loss measures such as medication, diet, but the effects are slow and low. </p>
-										<a href="#" class="reply"><i class="material-icons">reply</i>Reply</a>
+										<a href="javascript:void(0)" class="reply"><i class="material-icons">reply</i>Reply</a>
 									</div>
 								</li>
 							</ul>
@@ -165,7 +165,7 @@
 								<h3>Lori Gonzales</h3>
 								<div class="comment-date"><i class="material-icons">alarm_on</i>June 28, 2019 at 3:18 pm</div>
 								<p>Just practicing yoga for more than 3 months, I dropped from 64 kg to 58 kg. I have used many weight loss measures such as medication, diet, but the effects are slow and low. </p>
-								<a href="#" class="reply"><i class="material-icons">reply</i>Reply</a>
+								<a href="javascript:void(0)" class="reply"><i class="material-icons">reply</i>Reply</a>
 							</div>
 						</li>
 					</ul>
@@ -186,7 +186,7 @@
 							</div>
 							<div class="col-md-12">
 								<textarea placeholder="Message"></textarea>
-								<a href="#" class="site-btn sb-gradient">Send message</a>
+								<a href="javascript:void(0)" class="site-btn sb-gradient">Send message</a>
 							</div>
 						</div>
 					</form>
@@ -212,10 +212,10 @@
 							<h6>Yoga Trainer</h6>
 							<p>Yoga & Therapy Certificate of Uttarakhand University</p>
 							<div class="ai-social">
-								<a href="#"><i class="fa fa-facebook"></i></a>
-								<a href="#"><i class="fa fa-instagram"></i></a>
-								<a href="#"><i class="fa fa-twitter"></i></a>
-								<a href="#"><i class="fa fa-linkedin"></i></a>
+								<a href="javascript:void(0)"><i class="fa fa-facebook"></i></a>
+								<a href="javascript:void(0)"><i class="fa fa-instagram"></i></a>
+								<a href="javascript:void(0)"><i class="fa fa-twitter"></i></a>
+								<a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a>
 							</div>
 						</div>
 					</div>

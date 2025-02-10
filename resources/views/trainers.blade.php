@@ -29,10 +29,10 @@
 							<h6>Yoga Trainer</h6>
 							<p>Yoga & Therapy Certificate of Uttarakhand University Sanskrit</p>
 							<div class="ti-social">
-								<a href="#"><i class="fa fa-facebook"></i></a>
-								<a href="#"><i class="fa fa-instagram"></i></a>
-								<a href="#"><i class="fa fa-twitter"></i></a>
-								<a href="#"><i class="fa fa-linkedin"></i></a>
+								<a href="javascript:void(0)"><i class="fa fa-facebook"></i></a>
+								<a href="javascript:void(0)"><i class="fa fa-instagram"></i></a>
+								<a href="javascript:void(0)"><i class="fa fa-twitter"></i></a>
+								<a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a>
 							</div>
 						</div>
 					</div>
@@ -47,10 +47,10 @@
 							<h6>Yoga Trainer</h6>
 							<p>Yoga & Therapy Certificate of Uttarakhand University Sanskrit</p>
 							<div class="ti-social">
-								<a href="#"><i class="fa fa-facebook"></i></a>
-								<a href="#"><i class="fa fa-instagram"></i></a>
-								<a href="#"><i class="fa fa-twitter"></i></a>
-								<a href="#"><i class="fa fa-linkedin"></i></a>
+								<a href="javascript:void(0)"><i class="fa fa-facebook"></i></a>
+								<a href="javascript:void(0)"><i class="fa fa-instagram"></i></a>
+								<a href="javascript:void(0)"><i class="fa fa-twitter"></i></a>
+								<a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a>
 							</div>
 						</div>
 					</div>
@@ -66,10 +66,10 @@
 								<h6>Yoga Trainer</h6>
 								<p>Yoga & Therapy Certificate of Uttarakhand University Sanskrit</p>
 								<div class="ti-social">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-instagram"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-linkedin"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-facebook"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-instagram"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-twitter"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a>
 								</div>
 							</div>
 						</div>
@@ -86,10 +86,10 @@
 								<h6>Yoga Trainer</h6>
 								<p>Yoga & Therapy Certificate of Uttarakhand University Sanskrit</p>
 								<div class="ti-social">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-instagram"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-linkedin"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-facebook"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-instagram"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-twitter"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a>
 								</div>
 							</div>
 						</div>
@@ -106,10 +106,10 @@
 								<h6>Yoga Trainer</h6>
 								<p>Yoga & Therapy Certificate of Uttarakhand University Sanskrit</p>
 								<div class="ti-social">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-instagram"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-linkedin"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-facebook"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-instagram"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-twitter"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a>
 								</div>
 							</div>
 						</div>
@@ -126,10 +126,10 @@
 								<h6>Yoga Trainer</h6>
 								<p>Yoga & Therapy Certificate of Uttarakhand University Sanskrit</p>
 								<div class="ti-social">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-instagram"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-linkedin"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-facebook"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-instagram"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-twitter"></i></a>
+									<a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a>
 								</div>
 							</div>
 						</div>
@@ -137,9 +137,9 @@
 				</div>
 			</div>
 			<div class="site-pagination">
-				<a href="#" class="active">1</a>
-				<a href="#">2</a>
-				<a href="#"><i class="material-icons">keyboard_arrow_right</i></a>
+				<a href="javascript:void(0)" class="active">1</a>
+				<a href="javascript:void(0)">2</a>
+				<a href="javascript:void(0)"><i class="material-icons">keyboard_arrow_right</i></a>
 			</div>
 		</div>
 	</section>

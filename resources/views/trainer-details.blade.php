@@ -24,10 +24,10 @@
 					<div class="td-left">
 						<img src="assets/img/classes/1.jpg" alt="">
 						<div class="td-social">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-instagram"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-linkedin"></i></a>
+							<a href="javascript:void(0)"><i class="fa fa-facebook"></i></a>
+							<a href="javascript:void(0)"><i class="fa fa-instagram"></i></a>
+							<a href="javascript:void(0)"><i class="fa fa-twitter"></i></a>
+							<a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a>
 						</div>
 					</div>
 					<div class="td-right">
@@ -38,7 +38,7 @@
 							<li><strong>Email:</strong><p>emily-walker@example.com</p></li>
 							<li><strong>Biography:</strong><p>Certification from the National Institute of Sports Medicine (NASM) USA. 25 years of sports training in the United States, Germany, Hong Kong, Malaysia, Singapore, and now Vietnam at California Fitness & Yoga Centers.</p></li>
 						</ul>
-						<a href="#" class="site-btn sb-gradient">View classes</a>
+						<a href="javascript:void(0)" class="site-btn sb-gradient">View classes</a>
 					</div>
 				</div>
 				<div class="trainer-details-text">

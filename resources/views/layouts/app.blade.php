@@ -121,7 +121,7 @@
 				<i class="material-icons">close</i>
 			</div>
 			<div class="infor-middle">
-				<a href="#" class="infor-logo">
+				<a href="javascript:void(0)" class="infor-logo">
 					<img src="assets/img/logo-2.png" alt="">
 				</a>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
@@ -186,10 +186,10 @@
 					<button><img src="assets/img/icons/send.png" alt=""></button>
 				</form>
 				<div class="insta-social">
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-instagram"></i></a>
-					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a>
+					<a href="javascript:void(0)"><i class="fa fa-twitter"></i></a>
+					<a href="javascript:void(0)"><i class="fa fa-instagram"></i></a>
+					<a href="javascript:void(0)"><i class="fa fa-facebook"></i></a>
 				</div>
 			</div>
 		</div>
@@ -271,11 +271,11 @@
 					<div class="footer-widget pl-0 pl-lg-5">
 						<h2 class="fw-title">Company</h2>
 						<ul>
-							<li><a href="#">Online Education</a></li>
-							<li><a href="#">Gallery</a></li>
-							<li><a href="#">Special Issues</a></li>
-							<li><a href="#">Privacy Policy</a></li>
-							<li><a href="#">Contact Us</a></li>
+							<li><a href="javascript:void(0)">Online Education</a></li>
+							<li><a href="javascript:void(0)">Gallery</a></li>
+							<li><a href="javascript:void(0)">Special Issues</a></li>
+							<li><a href="javascript:void(0)">Privacy Policy</a></li>
+							<li><a href="javascript:void(0)">Contact Us</a></li>
 						</ul>
 					</div>
 				</div>
@@ -283,11 +283,11 @@
 					<div class="footer-widget">
 						<h2 class="fw-title">About Us</h2>
 						<ul>
-							<li><a href="#">Our Vision</a></li>
-							<li><a href="#">Our Mission</a></li>
-							<li><a href="#">Meet The Team</a></li>
-							<li><a href="#">Introduce</a></li>
-							<li><a href="#">Customer Service</a></li>
+							<li><a href="javascript:void(0)">Our Vision</a></li>
+							<li><a href="javascript:void(0)">Our Mission</a></li>
+							<li><a href="javascript:void(0)">Meet The Team</a></li>
+							<li><a href="javascript:void(0)">Introduce</a></li>
+							<li><a href="javascript:void(0)">Customer Service</a></li>
 						</ul>
 					</div>
 				</div>
@@ -309,10 +309,10 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="footer-social">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-instagram"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-linkedin"></i></a>
+							<a href="javascript:void(0)"><i class="fa fa-facebook"></i></a>
+							<a href="javascript:void(0)"><i class="fa fa-instagram"></i></a>
+							<a href="javascript:void(0)"><i class="fa fa-twitter"></i></a>
+							<a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a>
 						</div>
 					</div>
 					<div class="col-md-8 text-md-right">

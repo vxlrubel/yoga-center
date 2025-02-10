@@ -171,9 +171,9 @@
 				</div>
 			</div>
 			<div class="site-pagination pt-3">
-				<a href="#" class="active">1</a>
-				<a href="#">2</a>
-				<a href="#"><i class="material-icons">keyboard_arrow_right</i></a>
+				<a href="javascript:void(0)" class="active">1</a>
+				<a href="javascript:void(0)">2</a>
+				<a href="javascript:void(0)"><i class="material-icons">keyboard_arrow_right</i></a>
 			</div>
 		</div>
 	</section>

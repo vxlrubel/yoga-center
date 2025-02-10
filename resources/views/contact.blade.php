@@ -42,10 +42,10 @@
 						</ul>
 					</div>
 					<div class="contact-social">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-instagram"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
+						<a href="javascript:void(0)"><i class="fa fa-facebook"></i></a>
+						<a href="javascript:void(0)"><i class="fa fa-instagram"></i></a>
+						<a href="javascript:void(0)"><i class="fa fa-twitter"></i></a>
+						<a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a>
 					</div>
 				</div>
 				<div class="col-lg-8">
@@ -65,7 +65,7 @@
 							</div>
 							<div class="col-md-12">
 								<textarea placeholder="Message"></textarea>
-								<a href="#" class="site-btn sb-gradient">Send message</a>
+								<a href="javascript:void(0)" class="site-btn sb-gradient">Send message</a>
 							</div>
 						</div>
 					</form>
