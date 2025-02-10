@@ -80,34 +80,35 @@
 			</div>
 			<div class="container">
 				<ul class="main-menu">
-					<li><a href="index.html" class="active">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="classes.html">Classes</a>
-						<ul class="sub-menu">
-							<li><a href="classes.html">Our Claasses</a></li>
-							<li><a href="classes-details.html">Claasses Details</a></li>
-						</ul>
-					</li>
-					<li><a href="trainer.html">trainers</a>
-						<ul class="sub-menu">
-							<li><a href="trainer.html">Our Trainers</a></li>
-							<li><a href="trainer-details.html">Trainers Details</a></li>
-						</ul>
-					</li>
-					<li><a href="events.html">events</a>
-						<ul class="sub-menu">
-							<li><a href="events.html">Our Events</a></li>
-							<li><a href="event-details.html">Events Details</a></li>
-						</ul>
-					</li>
-					<li><a href="blog.html">Blog</a>
-						<ul class="sub-menu">
-							<li><a href="blog.html">Our Blog</a></li>
-							<li><a href="single-blog.html">Blog Details</a></li>
-						</ul>
-					</li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
+                    <li><a href="{{ url('/') }}" class="{{ Request::is('/') ? 'active' : '' }}">Home</a></li>
+                    <li><a href="{{ url('/about') }}" class="{{ Request::is('about') ? 'active' : '' }}">About</a></li>
+                    <li><a href="{{ url('/classes') }}" class="{{ Request::is('classes') || Request::is('class-details') ? 'active' : '' }}">Classes</a>
+                        <ul class="sub-menu">
+                            <li><a href="{{ url('/classes') }}" class="{{ Request::is('classes') ? 'active' : '' }}">Our Classes</a></li>
+                            <li><a href="{{ url('/class-details') }}" class="{{ Request::is('class-details') ? 'active' : '' }}">Class Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="{{ url('/trainers') }}" class="{{ Request::is('trainers') || Request::is('trainer-details') ? 'active' : '' }}">Trainers</a>
+                        <ul class="sub-menu">
+                            <li><a href="{{ url('/trainers') }}" class="{{ Request::is('trainers') ? 'active' : '' }}">Our Trainers</a></li>
+                            <li><a href="{{ url('/trainer-details') }}" class="{{ Request::is('trainer-details') ? 'active' : '' }}">Trainer Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="{{ url('/events') }}" class="{{ Request::is('events') || Request::is('event-details') ? 'active' : '' }}">Events</a>
+                        <ul class="sub-menu">
+                            <li><a href="{{ url('/events') }}" class="{{ Request::is('events') ? 'active' : '' }}">Our Events</a></li>
+                            <li><a href="{{ url('/event-details') }}" class="{{ Request::is('event-details') ? 'active' : '' }}">Event Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="{{ url('/blog') }}" class="{{ Request::is('blog') || Request::is('blog-details') ? 'active' : '' }}">Blog</a>
+                        <ul class="sub-menu">
+                            <li><a href="{{ url('/blog') }}" class="{{ Request::is('blog') ? 'active' : '' }}">Our Blog</a></li>
+                            <li><a href="{{ url('/blog-details') }}" class="{{ Request::is('blog-details') ? 'active' : '' }}">Blog Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="{{ url('/contact') }}" class="{{ Request::is('contact') ? 'active' : '' }}">Contact</a></li>
+                </ul>
+
 			</div>
 		</div>
 	</header>
