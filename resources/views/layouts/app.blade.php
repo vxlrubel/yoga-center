@@ -39,7 +39,7 @@
 	<header class="header-section user-select-none">
 		<div class="header-top">
 			<div class="row m-0">
-				<div class="col-md-6 d-none d-md-block p-0">
+				<div class="col-md-5 d-none d-md-block p-0">
 					<div class="header-info">
 						<i class="material-icons">map</i>
 						<p>184 Main Collins Street</p>
@@ -49,7 +49,7 @@
 						<p>(965) 436 3274</p>
 					</div>
 				</div>
-				<div class="col-md-6 text-md-end p-0">
+				<div class="col-md-7 text-sm-center text-md-end p-0">
 					<div class="header-info d-none d-md-inline-flex">
 						<i class="material-icons">alarm_on</i>
 						<p>Mon - Fri:  6:30am - 07:45pm</p>
@@ -63,6 +63,7 @@
 							<option data-display="Language" value="2">AR</option>
 						</select>
 					</div>
+                    <a href="{{url('/booknow')}}" class="site-btn sb-gradient book-now">Book Now</a>
 				</div>
 			</div>
 		</div>
