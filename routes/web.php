@@ -38,3 +38,9 @@ Route::get('/contact', function () {
 Route::get('/booknow', function () {
     return view('booknow');
 });
+Route::get('/login', function () {
+    return view('login');
+});
+Route::get('/register', function () {
+    return view('register');
+});
