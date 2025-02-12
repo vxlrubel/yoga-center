@@ -75,9 +75,6 @@
 				<div class="hb-switch" id="search-switch">
 					<img src="assets/img/icons/search.png" alt="">
 				</div>
-				<div class="hb-switch" id="infor-switch">
-					<img src="assets/img/icons/bars.png" alt="">
-				</div>
 			</div>
 			<div class="container">
 				<ul class="main-menu">
