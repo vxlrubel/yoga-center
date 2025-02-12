@@ -116,6 +116,7 @@
 
                         <button class="btn w-100 btn-sm py-2 px-3 border-0 btn-primary shadow-none text-uppercase submit-button" type="submit">Login</button>
                         <div class="small mt-1">You haven't an account, Please <a href="{{url('/register')}}" class="text-decoration-none">Register</a>.</div>
+                        <div class="small"><a href="{{url('/')}}" class="text-decoration-none fw-bold text-uppercase small mt-2">Back To Home </a></div>
                     </form>
                 </div>
             </div>
