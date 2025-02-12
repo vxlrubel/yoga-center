@@ -49,21 +49,25 @@
 						<p>(965) 436 3274</p>
 					</div>
 				</div>
-				<div class="col-md-7 text-sm-center text-md-end p-0">
-					<div class="header-info d-none d-md-inline-flex">
-						<i class="material-icons">alarm_on</i>
-						<p>Mon - Fri:  6:30am - 07:45pm</p>
+				<div class="col-md-7">
+					<div class="header-info small d-flex align-items-center gap-2 justify-content-md-end">
+						<a href="{{url('/login')}}" class="text-primary text-decoration-none">Login</a>
+                        <span class="text-primary">/</span>
+						<a href="{{url('/register')}}" class="text-primary text-decoration-none">Register</a>
+
+
+                        {{-- if user login --}}
+                        {{-- <div class="profile position-relative d-inline-flex align-items-center justify-content-end">
+                            <button class="profile-icon d-inline-flex border-0 rounded-circle p-0">
+                                <img src="{{asset('/assets/img/profile-placeholder.png')}}" alt="profile image">
+                            </button>
+                            <ul class="profile-dropdown list-unstyled p-2 m-0 position-absolute bg-white">
+                                <li class="px-2"><a href="javascript:void(0)" class="text-decoration-none text-dark d-block py-1">Profile</a></li>
+                                <li class="px-2"><a href="javascript:void(0)" class="text-decoration-none text-dark d-block py-1">Edit Profile</a></li>
+                            </ul>
+                        </div> --}}
+
 					</div>
-					<div class="header-info">
-						<i class="material-icons">language</i>
-						<select id="language" class="language-select">
-							<option data-display="Language">EN</option>
-							<option data-display="Language" value="1">ES</option>
-							<option data-display="Language" value="2">JA</option>
-							<option data-display="Language" value="2">AR</option>
-						</select>
-					</div>
-                    <a href="{{url('/booknow')}}" class="site-btn sb-gradient book-now">Book Now</a>
 				</div>
 			</div>
 		</div>
@@ -72,8 +76,8 @@
 				<img src="assets/img/logo.png" alt="">
 			</a>
 			<div class="hb-right">
-				<div class="hb-switch" id="search-switch">
-					<img src="assets/img/icons/search.png" alt="">
+				<div class="hb-switch">
+                    <a href="{{url('/booknow')}}" class="btn btn-sm py-2 px-4 small text-uppercase btn-light rounded-pill">Book Now</a>
 				</div>
 			</div>
 			<div class="container">

@@ -15,6 +15,7 @@
 		constructor(){
 			this.mainMenu();
 			this.backgroundSet();
+            this.profileDropdown();
 			this.backToTop();
 			this.heroSlider();
 			this.reviewSlider();
@@ -43,6 +44,22 @@
 				$(this).css('background-image', 'url(' + bg + ')');
 			});
 		}
+        profileDropdown(){
+            $(document).on('click', function (e) {
+                if (!$(e.target).closest('.profile').length) {
+                    $('.profile-dropdown').removeClass('active');
+                }
+            });
+
+            $('.profile').on('click', '.profile-icon', function (e) {
+                e.stopPropagation();
+                $(this).closest('.profile').find('.profile-dropdown').toggleClass('active');
+            });
+
+            $('.profile-dropdown').on('blur', function () {
+                $(this).removeClass('active');
+            });
+        }
 		backToTop(){
 			$(window).scroll(function() {
 				if ($(this).scrollTop() >= 500) {

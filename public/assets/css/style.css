@@ -392,8 +392,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	display: -webkit-inline-box;
 	display: -ms-inline-flexbox;
 	display: inline-flex;
-	margin-right: 30px;
-	padding: 14px 0;
+	margin-right: 1.225rem;
+	padding: 10px 0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -409,7 +409,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .header-info i {
 	font-size: 17px;
 	color: var(--color-primary);
-	margin-right: 10px;
+	margin-right: 5px;
 	position: relative;
 	top: 4px;
 }
@@ -446,7 +446,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .header-bottom .hb-right {
 	float: right;
-	padding-top: 15px;
+	padding-top: 8px;
 }
 
 .header-bottom .hb-switch {
@@ -4342,4 +4342,35 @@ a.site-btn.sb-gradient.book-now {
     padding-inline: .875rem !important;
     width: 100px !important;
     min-width: 130px;
+}
+.profile-icon{
+    --profile-thumb-width: 30px;
+    height: var(--profile-thumb-width);
+    width: var(--profile-thumb-width);
+}
+.profile-icon img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.profile-dropdown{
+    display: none;
+    width: 150px;
+    font-size: .875rem;
+    top: 100%;
+    left: 0;
+    transform: translateY(15px);
+    z-index: 1040;
+}
+@media(width >=768px){
+    .profile-dropdown{
+        left: auto;
+        right: 0;
+    }
+}
+.profile-dropdown.active{
+    display: block;
+}
+.profile-dropdown li:hover{
+    background-color: hsl(0, 0%, 95%);
 }
