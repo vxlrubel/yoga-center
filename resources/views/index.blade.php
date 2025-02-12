@@ -37,7 +37,7 @@
 									<div class="hs-text">
 										<h2>Get slim and toned with yoga</h2>
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos-trud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-										<div class="site-btn sb-white">Register now</div>
+										<a href="{{url('/register')}}" class="site-btn sb-white">Register now</a>
 									</div>
 								</div>
 							</div>
@@ -127,7 +127,7 @@
 								<p>Yoga Trainer</p>
 							</div>
 						</div>
-						<a href="javascript:void(0)" class="site-btn sb-gradient">book now</a>
+						<a href="{{url('/booknow')}}" class="site-btn sb-gradient">book now</a>
 					</div>
 				</div>
 				<div class="classes-item">
@@ -150,7 +150,7 @@
 								<p>Yoga Trainer</p>
 							</div>
 						</div>
-						<a href="javascript:void(0)" class="site-btn sb-gradient">book now</a>
+						<a href="{{url('/booknow')}}" class="site-btn sb-gradient">book now</a>
 					</div>
 				</div>
 				<div class="classes-item">
@@ -173,7 +173,7 @@
 								<p>Yoga Trainer</p>
 							</div>
 						</div>
-						<a href="javascript:void(0)" class="site-btn sb-gradient">book now</a>
+						<a href="{{url('/booknow')}}" class="site-btn sb-gradient">book now</a>
 					</div>
 				</div>
 				<div class="classes-item">
