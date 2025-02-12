@@ -10,12 +10,10 @@
 	});
 
 
-	
+
 	class FitShop {
 		constructor(){
 			this.mainMenu();
-			this.searchModal();
-			this.inforSwitch();
 			this.backgroundSet();
 			this.backToTop();
 			this.heroSlider();
@@ -39,29 +37,6 @@
 				openedSymbol: '<i class="fa fa-angle-down"></i>'
 			});
 		}
-		searchModal(){
-
-			$('#search-switch').on('click', function() {
-				$('.search-model').fadeIn(400);
-			});
-
-			$('.search-close-switch').on('click', function() {
-				$('.search-model').fadeOut(400,function(){
-					$('#search-input').val('');
-				});
-			});
-		}
-		inforSwitch(){
-			$('#infor-switch').on('click', function() {
-				$('.infor-model-warp').fadeIn(400);
-				$('.infor-model-warp').addClass('active');	
-			});
-		
-			$('.infor-close').on('click', function() {
-				$('.infor-model-warp').removeClass('active');
-				$('.infor-model-warp').fadeOut(400);
-			});
-		}
 		backgroundSet(){
 			$('.set-bg').each(function() {
 				var bg = $(this).data('setbg');
@@ -77,7 +52,7 @@
 					$('.back-to-top').fadeOut();
 				}
 			});
-		
+
 			$(".back-to-top").click(function() {
 				$("html, body").animate({scrollTop: 0}, 1000);
 			});
@@ -238,12 +213,12 @@
 			$( ".event-date" ).datepicker();
 		}
 	}
-	
+
 
 	const initiateProgram = ()=>{
 		new FitShop;
 	}
-	
+
 	$(document).ready( initiateProgram );
-	
+
 })(jQuery);
