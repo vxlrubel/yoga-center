@@ -244,18 +244,6 @@
 
 	<div class="back-to-top"><img src="assets/img/icons/up-arrow.png" alt=""></div>
 
-	<!-- Search model -->
-	<div class="search-model set-bg" data-setbg="assets/img/search-bg.jpg">
-		<div class="h-100 d-flex align-items-center justify-content-center">
-			<div class="search-close-switch"><i class="material-icons">close</i></div>
-			<form class="search-moderl-form">
-				<input type="text" id="search-input" placeholder="Search">
-				<button><img src="assets/img/icons/search-2.png" alt=""></button>
-			</form>
-		</div>
-	</div>
-	<!-- Search model end -->
-
 	<!--====== Javascripts & Jquery ======-->
 	<script src="{{asset('/assets/js/vendor/jquery.min.js')}}" ></script>
 	<script src="{{asset('/assets/js/bootstrap.min.js')}}"></script>
