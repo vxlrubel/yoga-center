@@ -21,7 +21,6 @@
 	<link rel="stylesheet" href="{{asset('/assets/css/owl.carousel.min.css')}}"/>
 	<link rel="stylesheet" href="{{asset('/assets/css/nice-select.css')}}"/>
 	<link rel="stylesheet" href="{{asset('/assets/css/magnific-popup.css')}}"/>
-	<link rel="stylesheet" href="{{asset('/assets/css/slicknav.min.css')}}"/>
 	<link rel="stylesheet" href="{{asset('/assets/css/animate.css')}}"/>
 
 	<!-- Main Stylesheets -->
@@ -302,7 +301,6 @@
 	<!--====== Javascripts & Jquery ======-->
 	<script src="{{asset('/assets/js/vendor/jquery.min.js')}}" ></script>
 	<script src="{{asset('/assets/js/bootstrap.min.js')}}"></script>
-	<script src="{{asset('/assets/js/jquery.slicknav.min.js')}}"></script>
 	<script src="{{asset('/assets/js/owl.carousel.min.js')}}"></script>
 	<script src="{{asset('/assets/js/jquery.nice-select.min.js')}}"></script>
 	<script src="{{asset('/assets/js/jquery-ui.min.js')}}"></script>
