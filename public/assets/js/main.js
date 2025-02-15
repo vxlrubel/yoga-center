@@ -4,6 +4,9 @@
 	/*------------------
 		Preloder
 	--------------------*/
+
+    let mobileSubmenu = false;
+
 	$(window).on('load', function() {
 		$(".loader").fadeOut();
 		$("#preloder").delay(400).fadeOut("slow");
@@ -31,12 +34,27 @@
 			this.circleSelect();
 		}
 		mainMenu(){
-			$(".main-menu").slicknav({
-				appendTo: '.header-section',
-				allowParentLinks: true,
-				closedSymbol: '<i class="fa fa-angle-right"></i>',
-				openedSymbol: '<i class="fa fa-angle-down"></i>'
-			});
+
+            const minus = '<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="M200-440v-80h560v80H200Z"/></svg>';
+            const plus = '<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>';
+
+            $(document).on('click', '.btn-menu-toggle', function(e){
+                $('#mobileMenuParent').stop().slideToggle('slow');
+            });
+
+            $('#mobileMenuParent').find('.sub-menu').siblings('a').addClass('has-submenu-link d-flex align-items-center justify-content-between').append(`<span class="submenu-toggler">${plus}</span>`);
+
+            $(document).on('click', '.has-submenu-link', function(e){
+                e.preventDefault();
+                mobileSubmenu = !mobileSubmenu;
+                if(mobileSubmenu){
+                    $(this).siblings('ul.sub-menu').stop().slideDown();
+                    $(this).children('.submenu-toggler').html(minus);
+                }else{
+                    $(this).siblings('ul.sub-menu').stop().slideUp();
+                    $(this).children('.submenu-toggler').html(plus);
+                }
+            });
 		}
 		backgroundSet(){
 			$('.set-bg').each(function() {

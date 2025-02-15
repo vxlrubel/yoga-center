@@ -18,6 +18,7 @@
 	--lightness: 50%;
 	--color-primary: hsl(var(--hue), var(--saturation), var(--lightness));
 	--color-secondary: hsl(258, 98%, 70%);
+    --header-menu-height: 3.5rem;
 }
 *::selection{
 	background-color: var(--color-primary);
@@ -361,25 +362,120 @@ ol {
 	z-index: 99;
 }
 
-.header-top {
-	padding: 0 80px;
-	background: #fff;
+.header-menu{
+    height: var(--header-menu-height);
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-	.header-top {
-		padding: 0 30px;
-	}
+@media(width >= 1200px ){
+    .header-menu,
+    .header-top{
+        padding-inline: 80px;
+    }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px),
-only screen and (min-width: 576px) and (max-width: 767px),
-(max-width: 576px) {
-	.header-top {
-		padding: 0 10px;
-	}
+.mobile-menu,
+.mobile-menu ul{
+    list-style: none;
+}
+.mobile-menu a{
+    display: block;
+    padding-block: .3rem;
+    color: inherit;
+    transition: padding 0.225s ease-in-out;
+    padding-inline: .875rem;
+}
+.mobile-menu .sub-menu{
+    display: none;
+    padding-left: 1rem;
 }
 
+.mobile-menu a:hover,
+.mobile-menu a.active{
+    background-color: var(--color-primary);
+    padding-inline: .875rem;
+    color: white;
+}
+
+.mobile-menu .sub-menu a:hover,
+.mobile-menu .sub-menu a.active{
+    color: var(--color-primary);
+    background: white;
+}
+.header-navbar{
+    --logo-width: 150px;
+    --last-icon-width: calc(100% - var(--logo-width));
+    --submenu-width: 170px;
+}
+
+@media(width >= 992px){
+    .header-navbar{
+        /* --logo-width: 150px; */
+        --last-icon-width: 150px;
+    }
+}
+
+.logo{
+    width: var(--logo-width);
+}
+.menu{
+    width: calc(100% - calc( var(--logo-width) + var(--last-icon-width) ));
+}
+.menu-last-item{
+    width: var(--last-icon-width);
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu ul a{
+    display: block;
+    color: inherit;
+    padding: 0.5rem;
+}
+
+.menu .sub-menu a{
+    color: var(--bs-dark);
+}
+.menu > ul > li > a{
+    padding-block: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.menu > ul > li{
+    position: relative;
+}
+.menu .sub-menu{
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    width: var(--submenu-width);
+    background-color: #fff;
+    padding: .5rem;
+    z-index: 9999;
+    opacity: 0;
+    transform: translateY(15px);
+    animation: fadeInMenuUp 0.2s ease-in-out forwards;
+}
+
+.menu li:hover > .sub-menu{
+    display: block;
+}
+@keyframes fadeInMenuUp{
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.menu ul a:hover,
+.menu ul a.active{
+    color: var(--color-primary);
+}
+.menu > ul > li >  a:hover,
+.menu > ul > li >  a.active{
+    color: hsl(0, 0%, 80%);
+}
 .ht-left {
 	float: left;
 }
@@ -575,7 +671,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	-o-transition: 0.4s;
 	transition: 0.4s;
 }
-
+#mobileMenuParent{
+    display: none;
+}
 .main-menu .sub-menu li a::after {
 	position: absolute;
 	content: "";
@@ -886,6 +984,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	min-height: 1080px;
 	height: 100%;
 	padding-top: 150px;
+    margin-top: calc(var(--header-menu-height) * -1);
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -2725,12 +2824,16 @@ only screen and (min-width: 576px) and (max-width: 767px),
   Other Pages
 ------------------
 ==================*/
-
+.btn-menu-toggle{
+    background-color: var(--color-primary) !important;
+    color: white !important;
+}
 .page-top-section {
 	height: 478px;
 	position: relative;
 	padding-top: 220px;
 	text-align: center;
+    margin-top: calc(var(--header-menu-height) * -1);
 }
 
 .page-top-section.page-sp {
