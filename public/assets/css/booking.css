@@ -1,0 +1,81 @@
+.page-top-section{
+    padding-top: 150px;
+    height: 300px;
+}
+@media(width >= 1500px ){
+    .container-xxl{
+        max-width: 1460px;
+    }
+}
+.booking-container{
+    --left-sidebar-width: 100%;
+    --right-sidebar-width: 100%;
+    display: flex;
+    min-height: 25rem;
+    flex-wrap: wrap;
+}
+
+@media( width >= 768px ){
+    .booking-container{
+        --left-sidebar-width: 20rem;
+        --right-sidebar-width: calc(100% - var(--left-sidebar-width));
+    }
+}
+.left-sidebar{
+    width: var(--left-sidebar-width);
+}
+.right-sidebar{
+    width: var(--right-sidebar-width);
+}
+.fc .fc-col-header-cell-cushion {
+    color: var(--bs-dark);
+    font-size: .875rem;
+    font-weight: 400;
+}
+
+.fc .fc-toolbar.fc-header-toolbar {
+    margin-bottom: .5rem;
+}
+
+.fc .fc-timegrid-slot-label {
+    background: white !important;
+}
+.fc .fc-timegrid-slot {
+    background: hsl(0, 0%, 97%);
+}
+/* .fc-theme-standard td, .fc-theme-standard th {
+    border: none !important;
+} */
+
+.btn-light,
+.fc .fc-button-primary {
+    background-color: hsl(0, 0%, 98%) !important;
+    border: 2px solid hsl(210, 14%, 89%) !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+    color: var(--bs-dark) !important;
+    border-radius: 0;
+    min-width: 120px;
+    font-size: .775rem;
+    padding-block: .6rem;
+    text-transform: uppercase;
+}
+.btn-light:hover,
+.fc .fc-button-primary:hover {
+    background-color: hsl(0, 0%, 95%) !important;
+}
+.fc .fc-toolbar-title {
+    --font-size-tile: .875rem;
+    font-size: var(--font-size-tile);
+}
+
+@media(width >= 768px){
+    .fc .fc-toolbar-title{
+        --font-size-tile: 1rem;
+    }
+}
+@media(width >= 992px){
+    .fc .fc-toolbar-title{
+        --font-size-tile: 1.225rem;
+    }
+}
