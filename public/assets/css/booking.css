@@ -79,3 +79,44 @@
         --font-size-tile: 1.225rem;
     }
 }
+
+
+
+.author-details {
+    --image-width: 100px;
+}
+
+.image{
+    width: var(--image-width);
+}
+.image > div{
+    display: block;
+    aspect-ratio: 3 / 4;
+    overflow: hidden;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.author-info{
+    width: calc(100% - var(--image-width));
+}
+.info-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.list-group-item{
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    color: white;
+}
+.list-group-item.active,
+.list-group-item:hover{
+    background-color: hsl(var(--hue), var(--saturation), 30%);
+    border-color: hsl(var(--hue), var(--saturation), 30%);
+}
