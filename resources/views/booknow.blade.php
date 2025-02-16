@@ -8,7 +8,7 @@
 @section('content')
 <section class="page-top-section set-bg" data-setbg="assets/img/page-top-bg.jpg">
     <div class="container">
-        <h2 class="p-0 m-0 fs-4 mt-4 text-white fw-bold">Book an Appointment</h2>
+        <h2 class="p-0 m-0 fs-4 text-white fw-bold">Book an Appointment</h2>
     </div>
 </section>
 
