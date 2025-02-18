@@ -1,4 +1,6 @@
 @extends('layouts.app')
+@push('title', 'login page')
+
 @push('style')
 <style>
     :root{
