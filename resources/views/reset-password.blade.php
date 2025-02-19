@@ -1,0 +1,137 @@
+@extends('layouts.app')
+@push('title', 'Reset Password')
+@push('style')
+<style>
+    :root{
+        --hue: 337;
+        --saturation: 85%;
+        --lightness: 50%;
+        --color-primary: hsl(var(--hue), var(--saturation), var(--lightness));
+        --color-secondary: hsl(258, 98%, 70%);
+    }
+    .page-top-section{
+        height: 100dvh;
+    }
+    .page-top-section:after {
+        position: absolute;
+        content: "";
+        inset: 0;
+        opacity: 0.92;
+        filter: alpha(opacity=92);
+        z-index: -1;
+        background: -o-linear-gradient(305deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+        background: linear-gradient(145deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+    }
+    .leftside{
+        background: -o-linear-gradient(145deg, #ffffff 0%, hsl(200.18deg 100% 76.28%) 100%);
+        background: linear-gradient(145deg, #ffffff 0%, hsl(200.18deg 100% 76.28%) 100%);
+        padding-block: 40px;
+    }
+    .rightside{
+        padding: 40px 30px;
+    }
+    .login-page > div{
+        width: 100%;
+        max-width: 720px;
+    }
+    .form-control:focus {
+        border-color: var(--color-primary);
+        box-shadow: 0 0 0 .1rem rgba(233, 41, 121, 0.5);
+    }
+    .btn.submit-button{
+        background-color: var(--color-primary);
+    }
+    .btn.submit-button:focus,
+    .btn.submit-button:hover{
+        background-color: hsl(var(--hue), var(--saturation), 30%);
+    }
+    a{
+        color: var(--color-primary);
+    }
+    a:hover{
+        color: hsl(var(--hue), var(--saturation), 30%);
+    }
+    .page-top-section {
+        padding-top: 120px;
+        height: auto;
+    }
+    .padding-block{
+        padding-top: 1.5rem;
+        padding-bottom: 3rem;
+    }
+    @media(width >= 992px){
+        .padding-block{
+            padding-bottom: 7rem;
+        }
+    }
+</style>
+@endpush
+
+@section('content')
+<div class="clearfix login-page page-top-section d-flex align-items-center justify-content-center px-3 user-select-none">
+    <div class="padding-block">
+        <div class="row rounded-4 overflow-hidden" style="--bs-gutter-x: 0px; --bs-gutter-y:0px;">
+            <div class="col-md-6 bg-info leftside">
+                <img src="{{asset('/assets/img/login-image.png')}}" class="img-fluid">
+            </div>
+            <div class="col-md-6 bg-white rightside">
+                <form action="javascript:void(0)" method="POST" class="text-start">
+                    <h2 class="fs-4 text-uppercase border-bottom mb-3 pb-1">Reset Password</h2>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">
+                            <span class="material-symbols-outlined">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#ec1366"><path d="M280-240q-100 0-170-70T40-480q0-100 70-170t170-70q66 0 121 33t87 87h432v240h-80v120H600v-120H488q-32 54-87 87t-121 33Zm0-80q66 0 106-40.5t48-79.5h246v120h80v-120h80v-80H434q-8-39-48-79.5T280-640q-66 0-113 47t-47 113q0 66 47 113t113 47Zm0-80q33 0 56.5-23.5T360-480q0-33-23.5-56.5T280-560q-33 0-56.5 23.5T200-480q0 33 23.5 56.5T280-400Zm0-80Z"/></svg>
+                            </span>
+                        </span>
+                        <input type="password" class="form-control small" placeholder="New Password" id="password">
+                        <button class="input-group-text" type="button" id="togglebutton">
+                            <span class="material-symbols-outlined">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#ec1366"><path d="M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-146 0-266-81.5T40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z"/></svg>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">
+                            <span class="material-symbols-outlined">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#ec1366"><path d="M280-240q-100 0-170-70T40-480q0-100 70-170t170-70q66 0 121 33t87 87h432v240h-80v120H600v-120H488q-32 54-87 87t-121 33Zm0-80q66 0 106-40.5t48-79.5h246v120h80v-120h80v-80H434q-8-39-48-79.5T280-640q-66 0-113 47t-47 113q0 66 47 113t113 47Zm0-80q33 0 56.5-23.5T360-480q0-33-23.5-56.5T280-560q-33 0-56.5 23.5T200-480q0 33 23.5 56.5T280-400Zm0-80Z"/></svg>
+                            </span>
+                        </span>
+                        <input type="password" class="form-control small" placeholder="Confirm Password" id="cPassword">
+                        <button class="input-group-text" type="button" id="cTogglebutton">
+                            <span class="material-symbols-outlined">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#ec1366"><path d="M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-146 0-266-81.5T40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z"/></svg>
+                            </span>
+                        </button>
+                    </div>
+
+                    <button class="btn w-100 btn-sm py-2 px-3 border-0 btn-primary shadow-none text-uppercase submit-button" type="submit">Reset Password</button>
+                    <div class="small"><a href="{{url('/')}}" class="text-decoration-none fw-bold text-uppercase small mt-2">Back To Home </a></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
+
+@push('script')
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const passwordToggler = ( buttonId, inputId )=>{
+            const _buttonToggler = document.getElementById( buttonId );
+            const _inputField = document.getElementById( inputId );
+
+            _buttonToggler.addEventListener("click", function () {
+                if (_inputField.type === "password") {
+                    _inputField.type = "text";
+                } else {
+                    _inputField.type = "password";
+                }
+            });
+        }
+
+        passwordToggler( 'togglebutton', 'password' );
+        passwordToggler( 'cTogglebutton', 'cPassword' );
+    });
+
+</script>
+@endpush
