@@ -103,13 +103,14 @@
                             </span>
                         </button>
                     </div>
-                    <div class="my-2">
+                    <div class="my-2 d-flex align-items-center justify-content-between">
                         <div class="form-check user-select-none small d-flex align-items-center gap-1 ps-0">
                             <input class="form-check-input shadow-none m-0" type="checkbox" value="" id="remember" checked>
-                            <label class="form-check-label" for="remember">
+                            <label class="form-check-label small" for="remember">
                               Remember Password.
                             </label>
                         </div>
+                        <a href="{{url('/forgot-password')}}" class="small">Forgot password</a>
                     </div>
 
                     <button class="btn w-100 btn-sm py-2 px-3 border-0 btn-primary shadow-none text-uppercase submit-button" type="submit">Login</button>
