@@ -26,7 +26,7 @@
                                         <img src="{{asset('/assets/img/profile-placeholder.png')}}" alt="profile image">
                                     </button>
                                     <ul class="profile-dropdown list-unstyled p-2 m-0 position-absolute bg-white border shadow-sm">
-                                        <li class="px-2"><a href="javascript:void(0)" class="text-decoration-none text-dark d-block py-1">Profile</a></li>
+                                        <li class="px-2"><a href="{{url('/profile')}}" class="text-decoration-none text-dark d-block py-1">Profile</a></li>
                                         <li class="px-2"><a href="javascript:void(0)" class="text-decoration-none text-dark d-block py-1">Edit Profile</a></li>
                                     </ul>
                                 </div>
