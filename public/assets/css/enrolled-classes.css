@@ -1,0 +1,47 @@
+.page-top-section{
+    padding-top: 150px;
+    height: 300px;
+}
+.small{
+    font-size: .8rem;
+}
+.enrolled-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.description {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.info-field{
+    --first-child-width: 5rem;
+    display: flex;
+}
+.info-field > *:nth-child(1){
+    width: var(--first-child-width);
+    font-weight: bold;
+}
+.info-field > *:nth-child(2){
+    width: calc(100% - var(--first-child-width));
+}
+
+.progress-range{
+    position: relative;
+    display: block;
+    width: 100%;
+    background: hsl(0, 0%,80%);
+    height: 0.5rem;
+    overflow: hidden;
+    border-radius: .5rem;
+}
+.progress-range > .progress-complete{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-primary);
+}
