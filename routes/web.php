@@ -53,3 +53,6 @@ Route::get('/reset-password', function () {
 Route::get('/profile', function () {
     return view('profile');
 });
+Route::get('/enrolled-classes', function () {
+    return view('enrolled-classes');
+});
