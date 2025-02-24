@@ -54,6 +54,31 @@
                 <ul class="mobile-menu p-0 list-unstyled m-0">
                     <li><a href="{{ url('/') }}" class="{{ Request::is('/') ? 'active' : '' }}">Home</a></li>
                     <li><a href="{{ url('/about') }}" class="{{ Request::is('about') ? 'active' : '' }}">About</a></li>
+                    <li><a href="javascript:void(0)">Services</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="javascript:void(0)">Wellness</a>
+                                <ul class="sub-menu">
+                                    <li><a href="javascript:void(0)">Naturophath Doctor</a></li>
+                                    <li> <a href="javascript:void(0)">Massage Therapy</a> </li>
+                                    <li><a href="javascript:void(0)">Acupumcture</a></li>
+                                    <li><a href="javascript:void(0)">Cupping</a></li>
+                                    <li><a href="javascript:void(0)">Psychotherapy</a></li>
+                                    <li><a href="javascript:void(0)">Home Care</a></li>
+                                    <li><a href="javascript:void(0)">Corporate Wellness</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">Fitness</a>
+                                <ul class="sub-menu">
+                                    <li><a href="javascript:void(0)">Online Group Training</a></li>
+                                    <li> <a href="javascript:void(0)">Personal Training</a> </li>
+                                    <li><a href="javascript:void(0)">Life Coaching</a></li>
+                                    <li><a href="javascript:void(0)">Dietitian</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
                     <li><a href="{{ url('/classes') }}" class="{{ Request::is('classes') || Request::is('class-details') ? 'active' : '' }}">Classes</a>
                         <ul class="sub-menu">
                             <li><a href="{{ url('/classes') }}" class="{{ Request::is('classes') ? 'active' : '' }}">Our Classes</a></li>
