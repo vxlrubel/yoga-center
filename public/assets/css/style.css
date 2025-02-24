@@ -4478,3 +4478,52 @@ a.site-btn.sb-gradient.book-now {
 .profile-dropdown li:hover{
     background-color: hsl(0, 0%, 95%);
 }
+
+.mega-menu{
+    position: absolute;
+    display: none;
+    background-color: hsla(0, 0%, 0%, 0.20);
+    backdrop-filter: blur(10px);
+    min-width: 450px;
+    padding-block: 1rem !important;
+    opacity: 0;
+    transform: translateY(15px);
+    animation: fadeInMegamenu 0.3s ease-in-out forwards;
+}
+li:hover .mega-menu{
+    display: flex;
+}
+.mega-menu li{
+    padding-inline: 1rem;
+    width: 50%;
+}
+.mega-menu li h3{
+    color: white !important;
+    border-bottom: 2px solid white;
+    padding-bottom: 0.325rem;
+}
+.mega-menu a {
+    display: block;
+    width: 100%;
+    color: white !important;
+    padding: .4rem  0 !important;
+    font-size: .875rem;
+    transition: padding 0.225s ease-in-out;
+}
+.mega-menu a:not(:last-child){
+    border-bottom: 1px solid hsl(210, 14%, 60%) !important;
+}
+.mega-menu a:hover,
+.mega-menu a.active{
+    background-color: white !important;
+    padding-inline: 1rem !important;
+    color: var(--color-primary) !important;
+}
+
+
+@keyframes fadeInMegamenu{
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -47,6 +47,7 @@
                 </div>
             </div>
         </div>
+
         {{-- mobile menu --}}
         <div class="position-absolute start-0 end-0 bg-white d-lg-none" id="mobileMenuParent">
             <div class="container-fluid py-3">
@@ -82,6 +83,7 @@
             </div>
         </div>
     </div>
+
     <div class="header-menu bg-transparent text-white">
         <div class="container-fluid h-100">
             <div class="d-flex align-items-center header-navbar h-100">
@@ -94,6 +96,28 @@
                     <ul class="p-0 list-unstyled m-0 d-flex gap-3 align-items-center px-3">
                         <li><a href="{{ url('/') }}" class="{{ Request::is('/') ? 'active' : '' }}">Home</a></li>
                         <li><a href="{{ url('/about') }}" class="{{ Request::is('about') ? 'active' : '' }}">About</a></li>
+                        <li>
+                            <a href="javascript:void(0)">Services</a>
+                            <ul class="mega-menu">
+                                <li>
+                                    <h3 class="fs-5">Wellness</h3>
+                                    <a href="javascript:void(0)">Naturophath Doctor</a>
+                                    <a href="javascript:void(0)">Massage Therapy</a>
+                                    <a href="javascript:void(0)">Acupumcture</a>
+                                    <a href="javascript:void(0)">Cupping</a>
+                                    <a href="javascript:void(0)">Psychotherapy</a>
+                                    <a href="javascript:void(0)">Home Care</a>
+                                    <a href="javascript:void(0)">Corporate Wellness</a>
+                                </li>
+                                <li>
+                                    <h3 class="fs-5">Fitness</h3>
+                                    <a href="javascript:void(0)">Online Group Training</a>
+                                    <a href="javascript:void(0)">Personal Training</a>
+                                    <a href="javascript:void(0)">Life Coaching</a>
+                                    <a href="javascript:void(0)">Dietitian</a>
+                                </li>
+                            </ul>
+                        </li>
                         <li><a href="{{ url('/classes') }}" class="{{ Request::is('classes') || Request::is('class-details') ? 'active' : '' }}">Classes</a>
                             <ul class="sub-menu">
                                 <li><a href="{{ url('/classes') }}" class="{{ Request::is('classes') ? 'active' : '' }}">Our Classes</a></li>
